@@ -29,9 +29,8 @@
   "bugs": {
     "url": "https://github.com/hkjang/node-red-contrib-xml2json/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
-    "xml2json": "0.12.0"
+    "p3x-xml2json": "^2026.4.136"
   },
   "deprecated": false,
   "description": "Parse xml to json",
@@ -51,5 +50,18 @@
     "type": "git",
     "url": "git+https://github.com/hkjang/node-red-contrib-xml2json.git"
   },
-  "version": "0.0.2"
+  "scripts": {
+    "test": "mocha --timeout 5000 \"test/**/*_spec.ts\""
+  },
+  "version": "0.0.2",
+  "devDependencies": {
+    "@types/node-red-node-test-helper": "^0.3.5",
+    "mocha": "^12.0.3",
+    "node-red": "^5.0.9",
+    "node-red-node-test-helper": "^0.3.6",
+    "sinon": "^22.1.0"
+  },
+  "allowScripts": {
+    "p3x-xml2json@2026.4.136": true
+  }
 }
