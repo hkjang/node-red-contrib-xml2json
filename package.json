@@ -51,6 +51,9 @@
     "type": "git",
     "url": "git+https://github.com/hkjang/node-red-contrib-xml2json.git"
   },
+  "scripts": {
+    "test": "mocha --timeout 5000 \"test/**/*_spec.ts\""
+  },
   "version": "0.0.2",
   "devDependencies": {
     "@types/node-red-node-test-helper": "^0.3.5",
