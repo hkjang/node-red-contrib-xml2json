@@ -29,9 +29,8 @@
   "bugs": {
     "url": "https://github.com/hkjang/node-red-contrib-xml2json/issues"
   },
-  "bundleDependencies": [],
   "dependencies": {
-    "xml2json": "0.12.0"
+    "p3x-xml2json": "^2026.4.136"
   },
   "deprecated": false,
   "description": "Parse xml to json",
@@ -61,5 +60,8 @@
     "node-red": "^5.0.9",
     "node-red-node-test-helper": "^0.3.6",
     "sinon": "^22.1.0"
+  },
+  "allowScripts": {
+    "p3x-xml2json@2026.4.136": true
   }
 }

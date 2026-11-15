@@ -58,7 +58,7 @@ Example
 JS Code for Node-RED
 ------
 ```js
-var xml2json = require('xml2json');
+var xml2json = require('p3x-xml2json');
 
 module.exports = function (RED) {
  function xml2jsonFunction(config) {
